@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard | Spring Flowers School</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(120deg, #8ec5fc, #ffe2ec);
+            font-family: "Roboto", sans-serif;
+        }
+
+        .banner {
+            background: url("https://static.vecteezy.com/system/resources/previews/006/412/222/non_2x/blue-baner-design-on-white-background-free-vector.jpg") center/cover no-repeat;
+            height: 230px;
+            border-radius: 18px;
+            margin: 25px auto;
+            max-width: 1100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2);
+        }
+
+        .banner .overlay {
+            background: rgba(33, 105, 224, 0.45);
+            width: 100%;
+            padding: 36px;
+            text-align: center;
+            border-radius: 18px;
+        }
+
+        .option-card {
+            border-radius: 18px;
+            background: #ffffff;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+            transition: 0.3s ease-in-out;
+        }
+
+        .option-card:hover {
+            transform: scale(1.06);
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
+        }
+
+        .option-card img {
+            height: 160px;
+            object-fit: cover;
+            border-radius: 18px 18px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="banner">
+        <div class="overlay">
+            <h1 class="fw-bold text-white display-5 mb-1">Spring Flowers School</h1>
+            <p class="text-white mb-0">Welcome to the Student Portal</p>
+        </div>
+    </div>
+
+    <div class="container py-4">
+        <h2 class="text-center fw-bold mb-4">Dashboard</h2>
+        <div class="row g-4 justify-content-center">
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="option-card text-center">
+                    <img src="img/timetable.jpg">
+                    <div class="p-3">
+                        <h5 class="fw-semibold">Time Table</h5>
+                        <a href="timetable.html" class="btn btn-success w-100">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="option-card text-center">
+                    <img src="img/profile.jpg">
+                    <div class="p-3">
+                        <h5 class="fw-semibold">Profile</h5>
+                        <a href="profile.html" class="btn btn-primary w-100">Open</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="option-card text-center">
+                    <img src="img/attendance.jpg">
+                    <div class="p-3">
+                        <h5 class="fw-semibold">Attendance</h5>
+                        <a href="attendance.html" class="btn btn-warning w-100">Check</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="option-card text-center">
+                    <img src="img/homework.jpg">
+                    <div class="p-3">
+                        <h5 class="fw-semibold">Homework</h5>
+                        <a href="homework.html" class="btn btn-info w-100">View</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

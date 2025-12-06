@@ -1,0 +1,4 @@
+com/contactmanager/dao/ContactDao.class
+com/contactmanager/servlet/ViewContactsServlet.class
+com/contactmanager/model/Contact.class
+com/contactmanager/servlet/AddContactServlet.class
